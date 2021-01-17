@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="thumb">12dp</dimen>
+    <dimen name="downloader_margin">35dp</dimen>
+    <dimen name="textSize">20sp</dimen>
+    <dimen name="textSizeSmall">16sp</dimen>
+</resources>

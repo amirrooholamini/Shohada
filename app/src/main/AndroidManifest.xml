@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.i3center.android.shohada">
+
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+    <application
+        android:name=".App"
+        android:allowBackup="true"
+        android:icon="@drawable/logo"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/logo"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name="activities.ActivityMemorial"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustPan"></activity>
+        <activity
+            android:name="activities.ActivityArmyTable"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="activities.ActivityOperationTable"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name="activities.ActivityVideoDetails"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name="activities.ActivitySongDetails"
+            android:screenOrientation="portrait" />
+
+        <provider
+            android:name=".GenericFileProvider"
+            android:authorities="${applicationId}.provider"
+            android:exported="false"
+            android:grantUriPermissions="true">
+            <meta-data
+                android:name="android.support.FILE_PROVIDER_PATHS"
+                android:resource="@xml/provider_paths" />
+        </provider>
+
+        <activity
+            android:name="activities.ActivityMartyr"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="activities.ActivityMartyrDetails"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="activities.ActivityAbout"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="activities.ActivityOperationDetails"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="activities.ActivityVideo"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustPan" />
+        <activity
+            android:name="activities.ActivityOperations"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustPan" />
+        <activity
+            android:name="activities.ActivitySong"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustPan" />
+        <activity
+            android:name="activities.ActivityMain"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustResize">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="activities.ActivityLibrary"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustPan" />
+    </application>
+
+</manifest>

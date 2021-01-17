@@ -1,0 +1,29 @@
+<resources>
+    <string name="app_name">شهداء</string>
+    <string name="permission_title">درخواست مجوز</string>
+    <string name="permission_ok">بله</string>
+    <string name="connections">پل های ارتباطی</string>
+    <string name="city">شهر</string>
+    <string name="permission_cancel">انصراف</string>
+    <string name="music_1">هفتمین دقیقه</string>
+    <string name="music_2">چراغی روشن است</string>
+    <string name="birthDate">تاریخ ولادت</string>
+    <string name="testimonyDate">تاریخ شهادت</string>
+    <string name="seyyed_rasool_ashraf">سید رسول اشرف</string>
+    <string name="seyyed_mohammad_ebrahimi">سید محمد ابراهیمی سریزدی</string>
+    <string name="mohammadali_amini">محمد علی امینی</string>
+    <string name="mohammadali_rahnamoon">محمد علی رهنمون</string>
+    <string name="mahmood_pagardkar">محمود پاگردکار</string>
+    <string name="operationTitle_1">اطلاعات کلی رزمندگان استان یزد</string>
+    <string name="operationTitle_2">اعزام های سراسری و شاخص استان یزد</string>
+    <string name="operationTitle_3">یزد در انقلاب اسلامی و دفاع مقدس (قبل از تشکیل تیپ 18 الغدیر)</string>
+    <string name="operationTitle_4">جنگ تحمیلی و حضور نیروهای یزدی در جبهه های دفاع مقدس</string>
+    <string name="operationTitle_5">نیروهای یزدی در قالب یگان های مختلف</string>
+    <string name="operationTitle_6">گردان ها و یگان های رزمی</string>
+    <string name="operationTitle_7">عملیات قبل از تشکیل تیپ 18 الغدیر</string>
+    <string name="web1">سایت خبر گذاری دفاع مقدس :</string>
+    <string name="web2">سایت اخبار دفاع مقدس استان یزد :</string>
+    <string name="web3">سایت شهدای شاخص استان یزد :</string>
+    <string name="web4">پرتال بنیاد حفظ آثار و نشر ارزش های دفاع مقدس استان یزد :</string>
+    <string name="permission_message">برای باز کردن فایل مورد نظر به مجوز ذخیره سازی بر روی حافظه خارجی نیاز دارید.\nآیا مایلید؟</string>
+</resources>
